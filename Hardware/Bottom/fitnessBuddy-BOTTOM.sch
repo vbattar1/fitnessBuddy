@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -7102,26 +7102,6 @@ and Bypass Capacitor</text>
 <label x="63.5" y="-5.08" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="A6/TIA" class="0">
-<segment>
-<wire x1="99.06" y1="50.8" x2="93.98" y2="50.8" width="0.1524" layer="91"/>
-<label x="93.98" y="50.8" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="AD5242" gate="G$1" pin="W1"/>
-</segment>
-<segment>
-<pinref part="C10" gate="G$1" pin="2"/>
-<wire x1="38.1" y1="137.16" x2="45.72" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="137.16" x2="45.72" y2="127" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="137.16" x2="45.72" y2="147.32" width="0.1524" layer="91"/>
-<junction x="45.72" y="137.16"/>
-<label x="45.72" y="147.32" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="C15" gate="G$1" pin="1"/>
-<wire x1="48.26" y1="127" x2="45.72" y2="127" width="0.1524" layer="91"/>
-<pinref part="TIA" gate="G$1" pin="OUT"/>
-<wire x1="43.18" y1="127" x2="45.72" y2="127" width="0.1524" layer="91"/>
-<junction x="45.72" y="127"/>
-</segment>
-</net>
 <net name="PD.C" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="PD.C"/>
@@ -7428,6 +7408,24 @@ and Bypass Capacitor</text>
 <pinref part="J1" gate="G$1" pin="6"/>
 <wire x1="58.42" y1="5.08" x2="63.5" y2="5.08" width="0.1524" layer="91"/>
 <label x="63.5" y="5.08" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<wire x1="99.06" y1="50.8" x2="93.98" y2="50.8" width="0.1524" layer="91"/>
+<label x="93.98" y="50.8" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="AD5242" gate="G$1" pin="W1"/>
+</segment>
+<segment>
+<pinref part="C10" gate="G$1" pin="2"/>
+<wire x1="38.1" y1="137.16" x2="45.72" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="137.16" x2="45.72" y2="127" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="137.16" x2="45.72" y2="147.32" width="0.1524" layer="91"/>
+<junction x="45.72" y="137.16"/>
+<label x="45.72" y="147.32" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="C15" gate="G$1" pin="1"/>
+<wire x1="48.26" y1="127" x2="45.72" y2="127" width="0.1524" layer="91"/>
+<pinref part="TIA" gate="G$1" pin="OUT"/>
+<wire x1="43.18" y1="127" x2="45.72" y2="127" width="0.1524" layer="91"/>
+<junction x="45.72" y="127"/>
 </segment>
 </net>
 </nets>
